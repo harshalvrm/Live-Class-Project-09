@@ -84,6 +84,7 @@ font-weight:700;
   margin-top: 100px;
 }
 
+/*** API cards ***/
 .cards{
   margin-left: 90px;
   margin-top: 20px;
@@ -109,22 +110,33 @@ font-weight:700;
 }
 
 .card-logo{
-  margin-left: 30px;
+  margin-left: 10px;
   margin-top: 30px;
 }
 
 .card-head-active{
   color: #000;
   margin-right: 30px;
+  margin-left: 10px;  
 }
 
 .card-body{
   color: #000;
-  font-size: ;
+  word-wrap: break-word;
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: 800;
 }
 
+.card-head{
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+
+/***Blog Section */
 .blog-heading{
-margin:50px 0 50px 90px;
+  margin:50px 0 50px 90px;
 }
 
 
@@ -144,7 +156,6 @@ margin:50px 0 50px 90px;
 }
 
 .blog-content{ 
-/* margin: 20px 0 0 30px; */
 background-color: #fff;
 width: 300px;
 height: 288px;
@@ -156,34 +167,57 @@ align-items: flex-start;
 /* box-shadow: 0px 5px 15px #000; */
 }
 
-/*** Doubt */
-.blog-content > h6 > h3 > small {
-  margin-left: 25px;
-
+/*** Selecting all the elements the blog card */
+.blog-content > h6, h3, small {
+  margin: 20px 0 0 25px;
 }
+
+.blog-content > h6{
+  color: #3400ff;
+  font-weight: 900;
+}
+
+.blog-content > h3{
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
  
 .blog-author{
   align-self: flex-end;
   margin-left: -50px;
 } 
 
+/* 2 circles in the blog card */
 .blog-card-bottom-image
-{ border: 2px;
-border-color: #000;
+{
+  position: relative;
+  margin-left: 290px;
+  bottom: 50px;
+  border: 5px solid;
+  border-radius: 50%;
+  border-color: #fff; /* To bring the border outside the vector image*/
 }
 
-/* .block-heading{
- margin-left: 90px;
+.blog-author{
+  position: relative;
+  margin-left: 8px;
+  bottom: 40px;
+  font-weight: 800;
 }
 
-.block-cards{
-  margin-left: 90px;
+/*** FAQ Contents */
+.faq-section{
+display: flex;
+height: 325px;
+justify-content: space-between;
+background-color: #5a31fc;
+}
+
+.faq-content{
+  width: 500px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+
+
 }
-
-
-.block-card{
-  height: 300px;
-  width: 40%;
-} */
