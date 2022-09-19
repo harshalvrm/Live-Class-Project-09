@@ -26,7 +26,9 @@ nav{
 
 .nav-item{
   margin-right: 20px;
+  font-family: 'Poppins';
   color: #fff;
+  font-weight: 100;
 
 }
 
@@ -270,7 +272,6 @@ background-color: #E9EDFF;
 
 }
 
-
 .download-email input{
   width: 550px;
   padding: 12px 12px;
@@ -289,4 +290,62 @@ background-color: #E9EDFF;
   right: 198px;
   border-radius: 50px;
   background-color: #5A31FC;
+  color: #E9EDFF;
+}
+
+
+/****Footer****/
+.footer-section{
+  display: flex;
+  height: 200px;
+  width: 100%;
+  justify-content: space-between;
+  background-color:#5A31FC;
+  color: #fff;
+  font-size: 12px;
+}
+
+.footer-left{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 0 0 0 90px;
+}
+
+.footer-right{
+  margin: 0 30px 0 0px;
+}
+
+.list-items{
+  list-style: none;
+  border-right: 1px solid #fff; 
+  padding: 0 15px;
+}
+
+.footer-left .list-items:first-child{
+ border: none;
+ padding: 0;
+}
+
+.list-items:last-child{
+  border: none;
+}
+
+ .list{
+  display: flex;
+}
+
+.logos-list{
+  display: flex;
+}
+
+.footer-logo{
+  width:120px;
+  margin-bottom: 10px;
+}
+
+.footer-logos{
+  margin-top: 70px;
+  padding: 10px;
 }
