@@ -243,5 +243,50 @@ background-color: #E9EDFF;
   height: 40px;
   background-color: #5A31FC;
   border: none;
+  border-radius: 5px;
   color: #fff;
+}
+
+
+/*** DOWNLOAD section */
+.download-section{
+  display: flex;
+  height: 200px;
+  align-items: center;
+}
+
+.download-content{
+  margin-left: 90px;
+  font-weight: 800;
+}
+
+.download-content span{
+  font-weight: 100;
+}
+
+.download-email{
+   position: relative;  
+  left: 420px;
+
+}
+
+
+.download-email input{
+  width: 550px;
+  padding: 12px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #E9EDFF;
+  border-radius: 50px;
+  border: none;
+}
+
+.down_button{
+  position: relative;
+  border: none;
+  width: 100px;
+  height: 40px;
+  right: 198px;
+  border-radius: 50px;
+  background-color: #5A31FC;
 }
