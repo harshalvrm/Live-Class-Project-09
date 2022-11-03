@@ -1,0 +1,90 @@
+@media screen and (max-width: 1024px){
+
+    nav{
+        float:right
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .header-image{
+        width: 50%;
+    }
+
+    .header-text{
+        font-size: 15px;
+    }
+      
+    .header-text p  {
+        font-size: 13px;
+    }      
+
+    .company-items{
+        font-size: 15px;      
+    }
+
+    .blog-card{
+        height: 250px;
+    }
+
+    .blog-content{ 
+        width: 250px;
+        height: 250px;   
+    }
+
+    .blog-card-bottom-image{
+     display: none;
+    }
+
+    .blog-author{
+        margin-left: 28px;
+        bottom: 0px;
+    }
+
+    .faq-section{
+        margin-top: 420px;
+    }
+
+    .faq-content{
+        width: 500px;
+    }
+
+    .faq-image img{
+        width: 100%;
+    }
+
+    .faq-content > h2{
+        font-size: 25px;
+    }
+
+    .faq-content > h4{
+        font-size: 12px;
+    }
+
+    .faq-content > h5{
+        margin-top: 25px ;
+    }
+
+    .faq-content > button{
+        width: 80px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .download-email{
+        left: 150px;
+    }
+
+    .download-email input{
+        width: 400px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px){
+}
+
+@media screen and (max-width: 576px){
+}
